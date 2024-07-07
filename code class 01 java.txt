@@ -1,0 +1,160 @@
+import java.util.Scanner;
+
+public class LargestNumber {
+    public static void main(String[] args) {
+        // Create a Scanner object for input
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt user to enter three numbers
+        System.out.print("Enter the first number: ");
+        int num1 = scanner.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int num2 = scanner.nextInt();
+
+        System.out.print("Enter the third number: ");
+        int num3 = scanner.nextInt();
+
+        // Close the scanner
+        scanner.close();
+
+        // Find the largest number using Math.max() method
+        int largest = Math.max(num1, Math.max(num2, num3));
+
+        // Print the largest number
+        System.out.println("The largest number is: " + largest);
+    }
+}
+
+
+-------------------------------------------------------------------
+
+
+public class MyMainClass {
+
+	public static void main(String[] args) {
+//		by appling what you learn upto now, check a given number is an odd number or even number
+		
+		int x = 78;
+		int y= x%2;
+		
+		
+	}
+
+}
+
+------------------------------------------------------------------------
+
+
+public class MyMainClass {
+
+	public static void main(String[] args) {
+//		logical operators
+		/*
+		 * 
+		& - and operator
+		| - or operator
+		! - not operator
+		
+		*/
+		
+		boolean b = false;
+		boolean b1 =  true;
+		
+		System.out.println(b & b1);
+		System.out.println(b | b1);
+		
+		System.out.println(!b);
+		
+		
+
+	}
+
+}
+
+
+---------------------------------------------------------------------------------
+
+
+
+public class MyMainClass {
+
+	public static void main(String[] args) {
+
+		int x = 5;
+		int y = 8;
+		
+		int a = 7;
+		int b= 9;
+		
+		System.out.println((x>y) && (a>b));
+		System.out.println((x<y) || (a>b));
+		
+
+//		Assignment Operators
+		
+
+	}
+
+}
+
+-----------------------------------------------------------------------------------------
+
+
+public class MyMainClass {
+
+	public static void main(String[] args) {
+//		Assignment Operators
+		
+		int x = 5;
+		x += 5; // === x = x+5;
+		System.out.println(x);
+		
+
+
+		
+
+	}
+
+}
+
+
+--------------------------------------------------------------------------
+
+
+
+public class MyMainClass {
+
+	public static void main(String[] args) {
+//		Unary Operators
+		
+		int x = 5;
+		x = ++x;
+
+		System.out.println(x);
+		
+
+
+		
+
+	}
+
+}
+
+-------------------------------------------------------------------------
+
+
+public class MyMainClass {
+
+	public static void main(String[] args) {
+//		Unary Operators
+		
+		int x = 6;
+		int y = 6;
+			
+		System.out.println( (x > y) & (++x > y));	
+		System.out.println(x);
+		System.out.println(y);
+	}
+
+}
